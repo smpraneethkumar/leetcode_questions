@@ -1,4 +1,4 @@
-package com.daily_question;
+package com.daily_question.esay;
 
 public class Power_of_four_342_06_01_2026 {
 

@@ -1,4 +1,4 @@
-package com.daily_question;
+package com.daily_question.esay;
 
 public class Power_of_three_326_06_01_2026 {
 

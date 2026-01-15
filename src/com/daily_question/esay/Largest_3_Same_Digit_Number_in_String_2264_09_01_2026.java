@@ -1,4 +1,4 @@
-package com.daily_question;
+package com.daily_question.esay;
 
 public class Largest_3_Same_Digit_Number_in_String_2264_09_01_2026 {
 

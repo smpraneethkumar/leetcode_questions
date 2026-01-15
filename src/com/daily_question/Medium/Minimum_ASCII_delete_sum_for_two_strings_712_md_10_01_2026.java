@@ -1,4 +1,4 @@
-package com.daily_question;
+package com.daily_question.Medium;
 
 public class Minimum_ASCII_delete_sum_for_two_strings_712_md_10_01_2026 {
 
