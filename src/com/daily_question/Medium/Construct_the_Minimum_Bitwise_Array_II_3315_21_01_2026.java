@@ -21,25 +21,22 @@ public class Construct_the_Minimum_Bitwise_Array_II_3315_21_01_2026 {
     public static int[] minBitwiseArray(List<Integer> nums) {
 
         int n = nums.size();
-        int[] ans = new int[n];
+        int [] ans = new int[n];
 
-        for (int i = 0; i < n; i++) {
-            int x = nums.get(i);
+        for(int i =0;i<n;i++){
+            int target = nums.get(i);
+            int answer  = -1;
+            int bitmask = 1;
 
-            // even numbers cannot be formed
-            if ((x & 1) == 0) {
-                ans[i] = -1;
-                continue;
+            while((target & bitmask) != 0){
+                answer =  target - bitmask;
+                bitmask <<=1;
+
             }
-
-            // find minimum j
-            int j = x;
-            while ((j | (j + 1)) != x) {
-                j--;
-            }
-
-            ans[i] = j;
+            ans[i] = answer;
         }
+
+
 
         return ans;
 
