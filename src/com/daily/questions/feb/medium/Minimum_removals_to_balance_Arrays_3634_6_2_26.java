@@ -3,7 +3,14 @@ package com.daily.questions.feb.medium;
 import java.util.Arrays;
 
 class Minimum_removals_to_balance_Arrays_3634_6_2_26 {
-    public int minRemoval(int[] nums, int k) {
+
+
+    public static void main(String[] args) {
+        int nums[] = {2,1,5};
+        int k = 2;
+        System.out.println(minRemoval(nums,k));
+    }
+    public  static int minRemoval(int[] nums, int k) {
         
         int n = nums.length;
         Arrays.sort(nums);
