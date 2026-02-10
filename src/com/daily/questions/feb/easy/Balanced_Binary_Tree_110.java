@@ -18,22 +18,21 @@ public class Balanced_Binary_Tree_110 {
      *     }
      * }
      */
-    class Solution {
 
         boolean balance;
         public boolean isBalanced(TreeNode root) {
             balance = true;
 
-            helper(root);
+//            helper(root);
 
             return balance;
         }
 
-        int helper(TreeNode root){
+//        int helper int(TreeNode root){
 
-            if(root==null){
-                return 0;
-            }
+//            if(root==null){
+//                return 0;
+//            }
 
 //            int left = helper(root.left);
 //            int right = helper(root.right);
@@ -43,6 +42,6 @@ public class Balanced_Binary_Tree_110 {
 //            }
 //
 //            return Math.max(left,right) +1;
-        }
-    }
+//        }
+
 }
