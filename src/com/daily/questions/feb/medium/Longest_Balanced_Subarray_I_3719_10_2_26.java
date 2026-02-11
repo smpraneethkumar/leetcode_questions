@@ -8,7 +8,7 @@ public class Longest_Balanced_Subarray_I_3719_10_2_26 {
     public static void main(String[] args) {
 
         int nums[] = {3,2,2,5,4};
-//
+
 
         System.out.println(longestBalanced(nums));
     }
