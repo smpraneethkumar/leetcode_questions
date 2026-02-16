@@ -24,7 +24,7 @@ public class add_binary_67 {
                     i--;
                 }
                 if(j>=0){
-                    sum = sum+b.charAt(j) -'0';
+                    sum = sum+b.charAt(j) -' 0';
                     j--;
                 }
                 sb.append(sum%2);
