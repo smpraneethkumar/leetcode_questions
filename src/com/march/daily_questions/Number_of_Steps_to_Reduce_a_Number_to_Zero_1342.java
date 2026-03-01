@@ -10,7 +10,7 @@ class Number_of_Steps_to_Reduce_a_Number_to_Zero_1342 {
 
     public static int  helper(int num, int steps){
 
-        if(num == 0){
+        if(num == 0) {
             return steps;
         }
 
