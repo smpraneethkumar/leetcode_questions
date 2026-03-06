@@ -3,7 +3,7 @@ package com.march.daily_question_march;
 public class Minimum_Changes_To_Make_Alternating_Binary_String_1758_5_3_26 {
 
     public static void main(String[] args) {
-        String s = "1111";
+        String s = "0100";
 
         System.out.println(minOperations(s));
     }
