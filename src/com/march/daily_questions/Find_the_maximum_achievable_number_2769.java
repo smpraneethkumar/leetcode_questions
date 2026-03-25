@@ -11,5 +11,6 @@ public class Find_the_maximum_achievable_number_2769 {
     public static int theMaximumAchievableX(int num, int t) {
 
         return num + 2 * t;
+        
     }
 }
